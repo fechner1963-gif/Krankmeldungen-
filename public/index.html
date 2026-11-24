@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1f5f8b">
+  <title>Mitarbeiterportal</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231f5f8b'/%3E%3Cpath d='M9 16h14M16 9v14' stroke='white' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="topbar hidden" id="topbar">
+    <div class="brand">Mitarbeiterportal</div>
+    <nav id="nav" class="nav"></nav>
+    <div class="who">
+      <span id="who-name"></span>
+      <button class="btn-link" id="logout">Abmelden</button>
+    </div>
+  </header>
+  <main id="main" class="main"></main>
+  <div id="toast" class="toast hidden" role="status" aria-live="polite"></div>
+  <dialog id="dialog"><form method="dialog" id="dialog-form"></form></dialog>
+</body>
+</html>

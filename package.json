@@ -1,0 +1,29 @@
+{
+  "name": "mitarbeiterportal",
+  "version": "1.0.0",
+  "description": "Krankmeldungen, Urlaubsanträge und Zeitkorrekturen für Mitarbeiter",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js",
+    "test": "node --disable-warning=ExperimentalWarning --test test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fechner1963-gif/Krankmeldungen-.git"
+  },
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/fechner1963-gif/Krankmeldungen-/issues"
+  },
+  "homepage": "https://github.com/fechner1963-gif/Krankmeldungen-#readme",
+  "dependencies": {
+    "express": "^4.22.3"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=22.13"
+  }
+}
